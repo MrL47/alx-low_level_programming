@@ -2,6 +2,7 @@
 
 /**
  * main - prints size of various types
+ * Description: program that prints size of various types on a computer
  * return (0);
  */
 int main(void)
