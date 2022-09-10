@@ -1,19 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - patience
- * description: all possible single number
- * return (0)
+ * main - Prints numbers between 0 to 9 with commas and spaces.
+ *
+ * Return: Always 0 (Success)
  */
-
-int main(void);
+int main(void)
 {
-	int number;
-	for (number = 48; number <= 57; number++)
-		putchar(number);
-	if(number ==57)
-		break;
-	putchar(',');
-	putchar(' ');
-	putchar('\n');
-	return (0)
+	int i;
 
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
