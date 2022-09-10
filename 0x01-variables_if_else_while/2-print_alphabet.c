@@ -13,5 +13,5 @@ int main(void);
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 		putchar(alphabete);
 	putchar('n');
-	retuen (0);
+	return (0);
 }
