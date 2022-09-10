@@ -5,7 +5,7 @@
  * Description: program that prints size of various types on a computer
  * return (0);
  */
-int main(void)
+int main()
 {
 	printf("Size of a char: %ld byte(s)\n", sizeof(char));
 	printf("Size of an int: %ld byte(s)\n", sizeof(int));
