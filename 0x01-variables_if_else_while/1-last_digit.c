@@ -7,7 +7,7 @@
  * Description: Assigns random number to a variable;
  * return (0)
  */
-int main(void)
+int main(void) 
 {
 		int n;
 	int l;
