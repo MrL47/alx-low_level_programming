@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - prints size of various types
+ * main - prints size of various type
+ * s
  * Description: program that prints size of various types on a computer
- * return (0);
+ * Return: (0) if successful else (1) on error
  */
 int main(void)
 {
