@@ -1,17 +1,40 @@
 #include "main.h"
 
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- *
- * @x: number to be raised
- * @y: power
- * Return: int of x to the power of y
+ * _sqrt_recursion - return the natural square root of a number
+ * @n: int number
+ * Return: If no natural square root, return -1. Else return natural
+ * square root
  */
-int _pow_recursion(int x, int y)
+
+int _sqrt_recursion(int n)
 {
-	if (y < 0)
+	int sqrt_fun(int n, int sq);
+
+	int sq = 1;
+
+	return (sqrt_fun(n, sq));
+}
+
+/**
+ * sqrt_fun - helper function to solve _sqrt_recursion
+ * @sq: number to determine if square root
+ * @n:  int number
+ * Return: square root if natural square root, or -1 if none found
+ */
+
+int sqrt_fun(int n, int sq)
+{
+	if (n == sq * sq)
+	{
+		return (sq);
+	}
+	else if (sq < n)
+	{
+		return (sqrt_fun(n, ++sq));
+	}
+	else
+	{
 		return (-1);
-	else if (y == 0)
-		return (1);
-	return (x * _pow_recursion(x, y - 1));
+	}
 }
