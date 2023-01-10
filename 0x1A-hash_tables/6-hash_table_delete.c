@@ -1,10 +1,11 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_delete - deleted hast table
  * @ht: hash table
  * Return: nothing
  */
+
 void hash_table_delete(hash_table_t *ht)
 {
 	unsigned long int idx = 0;

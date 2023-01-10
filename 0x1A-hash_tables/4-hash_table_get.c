@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_get - get vale of key
@@ -6,6 +6,7 @@ nclude "hash_tables.h"
  * @key: key string
  * Return: string value
  */
+
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	hash_node_t *node_table;

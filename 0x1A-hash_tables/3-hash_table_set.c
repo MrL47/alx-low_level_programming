@@ -1,4 +1,4 @@
-nclude "hash_tables.h"
+#include "hash_tables.h"
 
 /**
  * hash_table_set - add element to the table hasth
@@ -8,6 +8,7 @@ nclude "hash_tables.h"
  *
  * Return: 1 if is success or 0 failure
  */
+
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *tmp_node, *new_node;
