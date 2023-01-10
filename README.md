@@ -1,2 +1,6 @@
-C - Doubly linked lists - Solutions	
+This Repo is for C programming tasks for ALX SWE, 
+
+Author ✍️
+
+Langton
 
